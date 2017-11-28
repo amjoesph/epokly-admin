@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0px;
+    border-width: 0px;
+    height: 100%;
+    background: #ffffff;
+}
+    
+       /*Heading Spans*/
+h1 {
+    font-family: Arial;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+    
+h5 {
+    font-family: Arial;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+    
+h3 {
+    color: #205080;
+    font-family: Arial;
+}
+
+
+#clearfix {
+    clear: both;
+}
+    
+@media screen and (max-width: 1000px) {
+    .contentbox {
+        width: 30.666%;
+        margin-top: 15%;
+        float: left;
+        margin-left: 0%;
+    }
+    #header {
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 12.85%;
+        background-color: #205081; /*#4f4f4f#205081*/
+        position: relative;
+        height: 80px;
+    }
+}
